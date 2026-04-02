@@ -17,7 +17,10 @@ Business impact:
 - Helps align marketing with high-demand periods
 - Supports better financial planning through forward-looking insights
 
-## Dashboard Preview
+## Dashboard Highlight
+
+The forecast closely follows historical trends with clear seasonal patterns, 
+indicating stable short-term growth and predictable demand cycles.
 
 ![Forecast Overview](./06_screenshots/forecast-overview.png)  
 ![Sales Trends and Performance Drivers](./06_screenshots/sales-trends-and-performance-drivers.png)
