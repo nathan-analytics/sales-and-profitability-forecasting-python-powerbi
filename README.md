@@ -6,13 +6,13 @@ Time series analysis and forecasting project to predict future sales trends and 
 
 ## Project Summary
 
-Transformed transactional data into a structured time series dataset and built a forecasting model using Python (Prophet) to predict future sales performance.
+Built a time series forecasting model to predict future sales trends and support short-term planning decisions.
 
-Analyzed trends and seasonality, calculated rolling averages, and combined historical and forecasted data into a Power BI dashboard for business insights.
+Transformed transactional data into a monthly time series and used Python to analyze trends and seasonality.
 
-Key findings showed a consistent upward trend, strong seasonal demand patterns, and stable short-term growth, with profit showing more volatility than sales.
+The forecast provides a forward-looking view of demand, helping inform inventory, staffing, and budgeting decisions.
 
-This project demonstrates how forecasting can be used to support proactive planning and data-driven decision-making.
+Forecast accuracy is dependent on historical patterns and may be impacted by external factors not included in the model.
 
 ---
 
