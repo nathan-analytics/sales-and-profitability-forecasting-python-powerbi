@@ -1,107 +1,101 @@
-# Sales & Profitability Forecasting
+# Retail Sales Forecasting & Trend Analysis
 
-Forecasted sales and profit trends using Python to support revenue planning, margin stability, and business decision-making.
+Time series analysis and forecasting project to predict future sales trends and support planning decisions.
 
-## Project Summary
+---
 
-Analyzed historical retail data and built a time series forecasting model to predict sales and profit performance over the next 6 months.
+## Project Summary (30 seconds)
 
-Key findings:
-- Sales show consistent upward growth with clear seasonal demand patterns
-- Forecast indicates stable short-term revenue growth within a predictable range
-- Profit follows similar trends but is more volatile, highlighting margin instability
-- Peak demand periods can be anticipated for better planning
+Transformed transactional data into a structured time series dataset and built a forecasting model using Python (Prophet) to predict future sales performance.
 
-Business impact:
-- Enables proactive inventory and staffing decisions
-- Helps align marketing with high-demand periods
-- Supports forward-looking revenue planning
-- Highlights the need to monitor and manage margin stability
+Analyzed trends and seasonality, calculated rolling averages, and combined historical and forecasted data into a Power BI dashboard for business insights.
 
-## Dashboard Highlight
+Key findings showed a consistent upward trend, strong seasonal demand patterns, and stable short-term growth, with profit showing more volatility than sales.
 
-Sales show steady upward growth over time, indicating consistent demand and a stable revenue trajectory.
+This project demonstrates how forecasting can be used to support proactive planning and data-driven decision-making.
 
-![Forecast Overview](./06_screenshots/forecast-overview.png)  
+---
 
-Sales and profit move together over time, but profit is more volatile, indicating that future performance depends on maintaining margin stability.
+## Dashboard Preview
 
-![Sales Trends and Performance Drivers](./06_screenshots/sales-trends-and-performance-drivers.png)
+**Forecast Overview**  
+<img width="1155" height="649" alt="forecast-overview" src="https://github.com/user-attachments/assets/1197aa5c-6689-4de5-aa03-79afdab40735" />
+
+**Sales Trends & Seasonality**  
+<img width="1137" height="652" alt="sales-trends-and-performance-drivers" src="https://github.com/user-attachments/assets/ad7fcff2-c6b3-4969-81ad-472afa0c159b" />
+
+---
 
 ## Case Study
 
-[Sales & Profitability Forecasting Case Study.pdf](https://github.com/user-attachments/files/26452069/Sales.Profitability.Forecasting.Case.Study.pdf)
+Full breakdown of the forecasting approach, methodology, and business recommendations:
+
+[Sales & Profitability Forecasting.pdf](https://github.com/user-attachments/files/26551347/Sales.Profitability.Forecasting.pdf)
+
+---
 
 ## Key Insights
 
-- Sales trend upward over time with consistent growth patterns
-- Clear seasonality with recurring demand spikes during peak periods
-- Forecast predicts stable revenue growth in the short term
-- Profit is less stable than sales, indicating fluctuations in margin performance
-- Rolling averages highlight sustained growth with short-term variability
+- Sales show a consistent upward trend over time  
+- Strong seasonal patterns significantly influence demand  
+- Short-term forecast indicates stable continued growth  
+- Profit is more volatile than revenue, introducing additional risk  
+- Forecasting enables forward-looking, data-driven decision-making  
 
-## Project Overview
+---
 
-This project simulates a real-world forecasting workflow by transforming transactional data into a monthly time series and building predictive models for sales and profit.
+## Business Problem
 
-Workflow:
-- Cleaned and validated raw data using Python
-- Aggregated transactional data into monthly metrics
-- Built a forecasting model using Prophet
-- Generated a 6-month forecast for sales performance
-- Analyzed profit trends alongside revenue
-- Visualized trends and predictions in Power BI
+Businesses often rely on historical performance without a clear view of future demand. This leads to challenges in:
 
-## Data Preparation
+- Inventory planning  
+- Staffing and resource allocation  
+- Budgeting and financial forecasting  
 
-- Validated date formats, numeric fields, and missing values
-- Aggregated transaction-level data to monthly level
-- Created key metrics:
-  - Total sales
-  - Total profit
-  - 3-month rolling sales trend
-  - 3-month rolling profit trend
+This project focuses on using historical data to generate forward-looking insights.
 
-## Forecasting Approach
+---
 
-- Built a time series forecasting model using Prophet
-- Generated a 6-month forward-looking sales prediction
-- Compared historical trends with forecasted performance
-- Evaluated alignment between actual and predicted values
+## Business Impact
 
-## Dashboard Features
+- Improve inventory planning using demand forecasts  
+- Support staffing and operational decision-making  
+- Enable proactive budgeting and financial planning  
+- Reduce uncertainty through better demand visibility  
 
-- Historical vs forecasted sales comparison
-- Actual vs predicted trend visualization
-- Monthly sales and profit trends
-- Rolling average trend analysis
-- Seasonality insights and performance patterns
+---
 
-## Business Recommendations
+## Methodology
 
-- Use forecasts to guide inventory and staffing decisions  
-→ Expected Impact: Reduce stockouts and improve operational planning  
+### Data Preparation
+- Transformed transactional data into a monthly time series dataset  
+- Aggregated key metrics for trend and seasonality analysis  
 
-- Align marketing campaigns with seasonal demand peaks  
-→ Expected Impact: Increase campaign effectiveness and revenue  
+### Trend & Seasonality Analysis
+- Calculated rolling averages to smooth fluctuations  
+- Identified recurring seasonal patterns in demand  
 
-- Monitor profit volatility to improve margin consistency  
-→ Expected Impact: Reduce margin fluctuations and improve profitability  
+### Forecasting Model
+- Built forecasting model using Prophet  
+- Generated 6-month forward-looking predictions  
+- Combined forecast with historical data for comparison  
 
-- Continuously retrain forecasting models with new data  
-→ Expected Impact: Maintain forecast accuracy and improve decision-making  
+### Visualization
+- Developed Power BI dashboard to display trends and forecasts  
+- Designed visuals to clearly communicate future expectations  
 
-## Tools Used
+---
 
-- Python (Pandas, Prophet)
-- Power BI
+## Tech Stack
 
-## Dataset
+- Python (Pandas, Prophet – forecasting and analysis)  
+- Power BI (visualization and reporting)  
 
-Monthly aggregated retail sales data derived from transactional orders
+---
 
 ## Project Structure
 
+```
 sales-and-profitability-forecasting/  
 ├── 01_data_source/  
 ├── 02_python/  
@@ -111,3 +105,18 @@ sales-and-profitability-forecasting/
 ├── 06_screenshots/  
 ├── case_study.pdf  
 └── README.md
+```
+
+---
+## What This Project Demonstrates
+
+- Time series analysis and forecasting  
+- Ability to transform raw data into structured time-based insights  
+- Experience with predictive modeling (Prophet)  
+- Translating forecasts into actionable business strategy  
+
+---
+
+## Key Takeaway
+
+Forecasting transforms historical data into actionable future insights, enabling better planning, resource allocation, and decision-making.
