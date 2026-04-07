@@ -65,6 +65,14 @@ This project focuses on using historical data to generate forward-looking insigh
 
 ---
 
+## Data Pipeline
+
+Raw Data (Transactional Sales Data)  
+→ Python (Time Series Transformation, Feature Engineering, Forecasting Model)  
+→ Power BI (Visualization of Trends, Seasonality, and Forecast)
+
+---
+
 ## Methodology
 
 ### Data Preparation
