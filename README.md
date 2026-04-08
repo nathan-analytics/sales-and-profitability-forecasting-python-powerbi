@@ -1,18 +1,23 @@
 # Retail Sales Forecasting & Trend Analysis
 
-Time series analysis and forecasting project to predict future sales trends and support planning decisions.
+Time series forecasting project to analyze trends, seasonality, and predict future sales.
 
 ---
 
 ## Project Summary
 
-Built a time series forecasting model to predict future sales trends and support short-term planning decisions.
+Built a forecasting model using Python (Prophet) to analyze historical trends and generate a 6-month sales forecast.
 
-Transformed transactional data into a monthly time series and used Python to analyze trends and seasonality.
+Transformed transactional data into a monthly time series and identified key trend and seasonal patterns.
 
-The forecast provides a forward-looking view of demand, helping inform inventory, staffing, and budgeting decisions.
+Developed a Power BI dashboard to visualize forecasts and support planning decisions.
 
-Forecast accuracy is dependent on historical patterns and may be impacted by external factors not included in the model.
+Key findings:
+- Sales show a consistent upward trend  
+- Strong seasonality significantly impacts demand  
+- Forecast indicates stable short-term growth  
+
+These insights enable more accurate planning across inventory, staffing, and budgeting.
 
 ---
 
@@ -40,7 +45,7 @@ Full breakdown of the forecasting approach, methodology, and business recommenda
 - Strong seasonal patterns significantly influence demand  
 - Short-term forecast indicates stable continued growth  
 - Profit is more volatile than revenue, introducing additional risk  
-- Forecasting enables forward-looking, data-driven decision-making  
+- Forecasting enables forward-looking, data-driven decision-making
 
 ---
 
